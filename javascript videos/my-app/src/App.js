@@ -1,0 +1,20 @@
+
+import './App.css';
+import Videos from './Videos';
+import {BrowserRouter,Routes,Route} from'react-router-dom';
+
+function App() {
+  return (
+    <div className="App">
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Videos/>}/>
+          
+          </Routes>
+        
+      </BrowserRouter>
+    </div>
+  );
+}
+
+export default App;
